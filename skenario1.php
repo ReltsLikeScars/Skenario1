@@ -1,6 +1,6 @@
 <?php
 $grade = "";
-if (isset($_POST["nilai"])) { //nikai yg dimasukkan kena proses
+if (isset($_POST["nilai"])) { //nilai yg dimasukkan kena proses
     $nilai = $_POST["nilai"] + 0;
     if ($nilai >= 90) $grade = "A";
     else if ($nilai >= 80) $grade = "B";
